@@ -1,0 +1,6 @@
+{
+  "name": "Textenna AI",
+  "description": "An interactive CAD and design assistant for engineering wearable textile antennas. Calculate parameters, explore substrates, view CST workflows, and chat with an expert RF assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
