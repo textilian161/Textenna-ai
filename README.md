@@ -4,9 +4,34 @@ Textenna AI is a modern, responsive, and high-fidelity web-based engineering too
 
 The application has been fully styled with a premium **Light Blue Tone theme** optimizing contrast, modern typography, and clean visual rhythm.
 
+**Problem Statement**
+Information for wearable textile antenna design is scattered across textbooks, research papers, simulation tutorials, and material datasheets. Textenna AI centralizes this information in one easy-to-use interface.
+**Target Users**
+•	Textile engineers
+•	Electronics engineers
+•	PhD researchers
+•	University students
+•	Wearable technology developers
+
+**Live Deployment**
+https://textenna-ai.vercel.app/
+
+
+
 ---
 
 ## 🚀 Major Features
+
+Features outline
+•	AI engineering assistant
+•	Material information for textile substrates
+•	Wearable antenna guidance
+•	CST workflow overview
+•	Interactive antenna visualization
+•	Responsive React interface
+•	Fast Vite-based application
+
+Details
 
 1. **Analytical RF Calculator Engine**:
    - Computes physical dimensions (radiator width $W$, length $L$, ground size $W_g \times L_g$) dynamically based on full-wave transmission line models.
@@ -32,6 +57,11 @@ The application has been fully styled with a premium **Light Blue Tone theme** o
 
 6. **Interactive Textenna RF Chat Assistant**:
    - AI-powered consultant to troubleshoot detuning, physical bending/crumpling, impedance mismatches, and Specific Absorption Rate (SAR) limits near human tissue.
+   - **AI Feature**
+The application includes an AI assistant that answers wearable antenna questions.
+**Example System Prompt**
+You are Textenna AI, an expert assistant for wearable textile antennas. Help engineers understand textile materials, antenna fundamentals, CST workflow, and practical design decisions. Provide accurate, educational, step-by-step explanations. If uncertain, say so rather than inventing information.
+
 
 ---
 
@@ -72,6 +102,38 @@ The application has been fully styled with a premium **Light Blue Tone theme** o
 - **On-Body Detuning**: Unshielded structures (monopoles, dipoles) degrade rapidly when placed near human skin ($\epsilon_r \approx 50$ for muscle/tissue at $2.4\text{ GHz}$). Textenna AI recommends utilizing solid ground planes (such as Microstrip Patches or PIFAs) to block back-radiation and limit SAR to safe IEEE levels.
 - **Bending & Wetness**: Physical bending reduces the physical length, causing a frequency shift upwards. Water absorption (sweat) dramatically increases dielectric losses, lowering antenna gain.
 
+- Screenshots
+
+
+
+- **Technology Used**
+•	React
+•	TypeScript
+•	Vite
+•	Node.js
+•	Express
+•	Google AI Studio
+•	Google GenAI SDK
+•	Git
+•	GitHub
+•	Vercel
+•	Visual Studio Code
+
+**Project Structure**
+src/
+assets/
+server.ts
+package.json
+vite.config.ts
+README.md
+
+**Lessons Learned**
+This project improved skills in AI-assisted frontend development, React, Git/GitHub, deployment with Vercel, and creating engineering-focused user interfaces.
+
+**Author**
+Muntaha Rafiq developed this app as an individual academic project.
+
+
 ---
 
-*Textenna AI — Empowering the next generation of smart garments and body area networks (BAN).*
+***Textenna AI — Empowering the next generation of smart garments and body area networks (BAN).***
