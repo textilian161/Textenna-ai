@@ -103,7 +103,19 @@ You are Textenna AI, an expert assistant for wearable textile antennas. Help eng
 - **Bending & Wetness**: Physical bending reduces the physical length, causing a frequency shift upwards. Water absorption (sweat) dramatically increases dielectric losses, lowering antenna gain.
 
 - Screenshots
+## 📸 Screenshots
 
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### AI Assistant
+
+![AI Assistant](screenshots/AI chat.png)
+
+### Details
+
+![Details](screenshots/details.png)
 
 
 - **Technology Used**
