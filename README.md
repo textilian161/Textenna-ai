@@ -102,17 +102,16 @@ You are Textenna AI, an expert assistant for wearable textile antennas. Help eng
 - **On-Body Detuning**: Unshielded structures (monopoles, dipoles) degrade rapidly when placed near human skin ($\epsilon_r \approx 50$ for muscle/tissue at $2.4\text{ GHz}$). Textenna AI recommends utilizing solid ground planes (such as Microstrip Patches or PIFAs) to block back-radiation and limit SAR to safe IEEE levels.
 - **Bending & Wetness**: Physical bending reduces the physical length, causing a frequency shift upwards. Water absorption (sweat) dramatically increases dielectric losses, lowering antenna gain.
 
-## 📸 Screenshots
+## ## Screenshots
 
-### Home Page
-![Home Page](./screenshots/home.png)
+### Home Screen
+![Home Screen](screenshot/home.png)
 
-### AI Assistant
-![AI Assistant](screenshots/AI chat.png)
+### AI Chat Feature
+![AI Chat](screenshot/AI chat.png)
 
-### Details
-
-![Details](screenshots/details.png)
+### Details Screen
+![Details Screen](screenshot/details.png)
 
 - **Technology Used**
 -	React
