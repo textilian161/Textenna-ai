@@ -108,7 +108,7 @@ You are Textenna AI, an expert assistant for wearable textile antennas. Help eng
 ![Home Screen](screenshot/home.png)
 
 ### AI Chat Feature
-![AI](screenshot/AI.png)
+![AI Chat](https://raw.githubusercontent.com/textilian161/Textenna-ai/master/screenshot/aichat.png)
 
 ### Details Screen
 ![Details Screen](screenshot/details.png)
